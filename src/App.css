@@ -1,0 +1,4595 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spectral+SC:ital,wght@1,700&display=swap');
+
+:root {
+  --mainDark: #000;
+  --mainBlue: yellow;
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+
+}
+
+
+
+ /* ========Navbar ========= */
+
+ .general-wrapper {
+    padding: .75em;
+ }
+
+ /* Nav tag */
+
+ .navbar-e-commerce {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E4DACD;
+
+ }
+
+
+
+ /* div tag wrapping Link with img logo and biyou */
+
+ .div-logo-name-navbar-e-commerce {
+    display: flex;
+    justify-content: space-around;
+    margin-left: .5em;
+
+}
+
+ /* Link tag wrapping logo & Biyou */
+
+.link-logo-biyou-navbar-e-commerce {
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+/* class applied only to GIorangeSlice icon */
+
+.navbar-logo-e-commerce {
+    margin-top: 0.2em;
+
+}
+
+/* class applied to Biyou span only */
+
+.biyou-navbar-e-commerce {
+  color: #000;
+  margin-left: 0.1em;
+  font-size: 2rem;
+  font-style: italic;
+ 
+}
+
+
+/* div tag wrapping icon search and Link containing button wrapping cart icon */
+
+
+.div-search-cart-icon-cart-total-navbar-e-commerce {
+  display: flex;
+  padding: 1em 0;
+  margin-top: 0.25em;
+  margin-right: 1em;
+  width:  10rem;
+  align-items: center;
+  justify-content: right;
+  font-weight: bolder;
+  color: #000;
+
+}
+
+
+/* class applied to button wrapping cart Icon in Link */
+
+.button-icon-my-cart {
+  
+  margin-right: 1.25em;
+  background: #E4DACD;
+  border: none;
+  outline: none;
+  position: relative;
+
+
+}
+
+.button-icon-my-cart:hover{
+  cursor: pointer;
+
+
+}
+
+.div-subTotal-total-cart-navbar-e-commerce {
+}
+
+/* class applied to price in Navbar */
+
+.cart-total-price-navbar-e-commerce {
+  font-size: 0.9rem;
+
+}
+
+/* class applied to number of items put in cart wrapped by Link */
+
+.cart-total-items-navbar-e-commerce {
+  background-color: #E6A97E;
+  margin-left: 0.25em;
+  margin-top: 1.5em;
+  padding: 0.3em;
+  text-align: center;
+  font-weight: bolder;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  top: -5%;
+  left: 54%;
+
+}
+
+
+
+
+/* ======== HOME Component ========= */
+
+
+/* class applied to only div wrapping Link in Home Component  */
+
+
+
+.home-div-h2-Link-to-products-e-commerce {
+  background-image: url('./Images/background_img_home.jpg');
+  height: 120vh;
+  background-position: left bottom;
+  background-size: cover;
+  background-color: #E4DACD;
+  background-blend-mode: multiply;
+  border: 1px solid transparent;
+  padding: 0 .75em;
+
+}
+
+
+/* class applied to h2 slogan in div Home Component  */
+
+.home-h2-slogoan-list-e-commerce {
+  color: #000;
+  font-size: 1.85rem;
+  font-weight: bolder;
+  text-align: left;
+  opacity: 0.9;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  margin-left: .5em;
+  font-style: italic;
+
+
+}
+
+
+/* class applied to Link wrapping "Visit" paragraph in Home Component  */
+
+.home-link-to-products-list-e-commerce {
+  text-decoration: none;
+
+}
+
+
+/* class applied to paragraph wrapped by Link in Home Component  */
+
+.home-p-Visit-to-product-list-e-commerce {
+  font-size: 1.25rem;
+  color: #FFF;
+  background-color: #CD6547;
+  font-weight: bolder;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 13rem;
+  padding: .25em .75em;
+  border-radius: 6px;
+  margin-left: .75em;
+  margin-top: 1.5em;
+  box-shadow: 0px 0px 1px;
+
+
+}
+
+
+
+/* ======== Product Component ========= */
+
+
+.genaral-wrapper-product-e-commerce {
+  padding: 0.25em;
+  background: #E4DACD;
+}
+
+
+/* wrapper around title bouncy skin */
+
+.wrapper-bouncy-skin-title-product-e-commerce {
+  position: relative;
+}
+
+.wrapper-bouncy-skin-title-product-e-commerce:before {
+  content: '';
+  position: absolute;
+  background:  #E4DACD;
+  /*width: 90%; */
+  width: 440px;
+  height: 62%;
+  opacity: 0.17;
+  top: 10%;
+  left: 3%;
+  border-radius: 37%;
+  box-shadow: 0px 0px 6px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+  filter: drop-shadow(1px 3px 6px #E4DACD);
+
+} 
+
+
+/* class applied to h2 Have a bouncy skin! in Product Component  */
+
+.bouncy-skin-product-e-commerce {
+  font-style: italic;
+  color: #555D50;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  letter-spacing: 1.3px;
+  position: relative;
+  width: 400px;
+}
+
+.bouncy-skin-product-e-commerce::after {
+  content: '';
+  position: absolute;
+  background: #CD6547;
+  width: 100px;
+  height: 32%;
+  transform: rotate(168deg);
+  top: 82%;
+  left: 74%;
+  clip-path: polygon(20% 0%, 0% 20%, 2% 26%, 0 48%, 24% 68%, 50% 70%, 93% 68%, 97% 62%, 99% 51%, 92% 10%, 80% 0%, 50% 2%); 
+  box-shadow: 8px 4px 23px 40px #0ff;
+
+}
+
+
+
+
+/* General Container wrapping all the cards in Product */
+
+.container-for-card-product-e-commerce {
+  background-color: #E2BEA8;
+  position: relative;
+  display: grid;
+}
+
+
+
+
+
+
+/*  Container for each individual card in Product */
+
+
+.img-container-product-e-commerce {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  
+  width: 415px;
+  padding: 0.55em 0.55em 0.4em 0.55em;
+  margin-bottom: 3em;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 6px;
+
+ /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; 
+  background: #E4DACD; 
+  background-color: #E2BEA8;
+   background: linear-gradient(180deg,#E2BEA8, #E4DACD); */
+
+
+/*
+  background: linear-gradient(90deg,#E2BEA8, #E4DACD); 
+
+
+
+  box-shadow: 0px 0px 5px 0px #E4DACD , 0px 0px 1px 0px #E2BEA8; 
+  box-shadow: 0px 0px 5px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; */
+
+
+ 
+      
+
+  background: linear-gradient(180deg, #E4DACD,#E2BEA8);
+  background: linear-gradient(90deg,#E2BEA8, #E4DACD);
+
+  box-shadow: 0px 0px 5px 0px #E4DACD , 0px 0px 1px 0px #E2BEA8; 
+  box-shadow: 0px 0px 12px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+
+
+
+}
+
+/*  class applied to link wrapping picture product and Find out more About */
+
+
+.link-to-details-product-e-commerce {
+  width: 80%;
+  position: relative;
+
+}
+
+
+/* class applied picture product wrapped by link wrapping  */
+
+
+.img-card-product-e-commerce {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; 
+
+}
+
+
+
+/* Decoration class applied to Link wrapping picture product and Find out more About  */
+
+
+.link-to-details-product-e-commerce::before{
+  position: absolute;
+  content: '';
+  background: #555D50;
+  height: 95%;
+  width: 100%;
+  transform: scaleY(0);
+  padding: 0.2em 0;
+  transform-origin: top; 
+
+}
+
+/* class applied to Find out more About wrapped by Link */
+
+.find-out-card-product-e-commerce {
+  position: absolute;
+  bottom: 35%;
+  left: 9%;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  opacity: 0;
+
+}
+
+
+.link-to-details-product-e-commerce:hover::before{
+  opacity: .7;
+  transform: scaleY(1);
+  transform-origin: bottom ;
+
+}
+
+.link-to-details-product-e-commerce:hover .find-out-card-product-e-commerce{
+  opacity: 1;
+}
+
+
+
+/* class applied to button wrapping cart icon used to add product */
+
+
+.card-btn-product-e-commerce {
+  width: 2rem;
+  top: 79%;
+  right: 3%;
+  padding: 0.3em;
+  outline: none;
+  background: #CD6547;
+  position: absolute;
+  border: 1px solid #CD6547; 
+  border-radius: 50%; 
+  text-align: center;
+
+
+}
+
+
+
+
+.link-to-details-product-e-commerce,
+i:hover {
+  cursor: pointer;
+
+}
+
+
+/* class applied to div wrapping name,contenance and price */
+
+
+.card-name-price-product-e-commerce {
+  margin-top: 1.5em;
+  letter-spacing: 1.6px;
+  color: #555D50;
+  width: 45%;
+  padding: 0;
+  margin-left: .75em;
+
+
+
+}
+
+/* class applied to name of product */
+
+
+.title-card-product-e-commerce {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 0em;
+  margin-bottom: 0;
+  text-align: center;
+  font-style: italic;
+
+
+}
+
+/* class applied to contenace of product */
+
+
+.contenance-card-product-e-commerce {
+  text-align: center;
+  font-size: 1.15rem;
+
+}
+
+/* class applied to price of product */
+
+.price-card-product-e-commerce {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #555D50;
+  font-weight: bolder;
+
+}
+
+
+/* ======== Modal Component ========= */
+
+
+/* class applied to div wrapping Title,Link */
+
+
+.div-wrapper-modal-e-commerce {
+  padding: 1em 0.75em 0.75em 1em;
+  border-radius: 6px; 
+  letter-spacing: 1.6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; 
+
+
+}
+
+/* class applied to h4 Item added to... */
+
+
+.h4-item-added-to-modal-e-commerce  {
+  text-align: center;
+  font-size: 1.55rem;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #555D50;
+}
+
+
+/* class applied to img */
+
+
+.img-modal-e-commerce {
+  border-radius: 6px;
+}
+
+
+/* class applied to title of product */
+
+
+.title-modal-e-commerce {
+  font-size: 2rem; /*1.6rem */
+  letter-spacing: 1.6px;
+  font-style: italic;
+  color: #555D50;
+  font-weight: bolder;
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-align: center;
+  color: #555D50;
+
+}
+
+
+/* class applied to contenance of product */
+
+
+.contenance-modal-e-commerce {
+  font-size: 1.15rem;
+  color: #555D50;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0;
+
+}
+
+
+/* class applied to price of product */
+
+
+.price-modal-e-commerce {
+  color: #9DA6b6;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-top: 1em;
+  text-align: center;
+
+}
+
+
+/* class applied to div wrapping two button Link */
+
+
+.wrapper-buttons-modal-e-commerce {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+/* ======== Product Details Component ========= */
+
+
+/* class applied general div in Details */
+
+
+.div-wrapper-details-product-e-commerce {
+  padding: 1em .75em 0.75em 2.5em;
+  background: #E2BEA8;
+  letter-spacing: 1.6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; 
+}
+
+
+/* class applied Title (name of the product) */
+
+.title-details-products-e-commerce {
+    font-size: 2.5rem;
+    font-style: italic;
+    letter-spacing: 1.6px;
+    color: #555D50;
+    font-weight: bolder;
+    margin-top: .5em;
+    margin-right: .1em;
+    margin-bottom: 1em;
+
+
+}
+
+
+/* class applied to div wrapping IMG of product */
+
+
+.div-img-details-products-e-commerce {
+  position: relative;
+  
+}
+
+/* class applied to IMG of product decoration */
+
+
+.div-img-details-products-e-commerce::before {
+  position: absolute;
+  content: '';
+  background: #E2DACD;
+  height: 100%;
+  width: 70%;
+  top: 9%;
+  right: 11%;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+
+}
+
+
+/* class applied IMG of product */
+
+
+.img-details-products-e-commerce {
+  border-radius: 6px;
+  display: block;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin-top: .5em;
+  position: relative;
+}
+
+/* class applied div wrapping price + contenance  */
+
+
+
+.price-quantity-box-details-products-e-commerce {
+
+  display: flex;
+  margin-top: 4em;
+  margin-bottom: 2.2em;
+  padding: .1em .75em;
+  font-size: 1.15rem;
+  width: 70%;
+  border: 1px solid #E4DACD;
+  justify-content: space-between;
+  border-radius: 6px;
+  color: #555D50;
+  font-weight: bolder;
+
+}
+
+
+/* class applied to two paragraph infos  */
+
+
+.div-infos-details-products-e-commerce {
+  margin-top: 0;
+  max-width: 400px;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+
+/* class applied to frist paragraph infos  */
+
+
+.info-details-products-e-commerce {
+  margin-bottom: 0;
+  font-style: italic;
+
+}
+
+/* class applied to second paragraph infos  */
+
+
+.info-use-for-details-products-e-commerce {
+   margin-top: 1.5em;
+   font-style: italic;
+
+}
+
+
+/* class applied to div wrapping two buttons named continue shoping or add to cart  */
+
+
+.wrapper-buttons-details-product-e-commerce {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+
+
+/* ======== Empty Cart Component ========= */
+
+
+
+/* class applied to general div */
+
+
+.div-empty-cart-e-commerce {
+  background: url('./Images/background_empty_cart_draw.jpg');
+  background-size: 370px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  padding: 1.25em;
+  background-color: #FFF; 
+
+} 
+
+
+/* class applied to message cart empty  */
+
+
+
+.cart-empty-message-empty-cart-e-commerce {
+  color: #E4DACD;
+  color: #555D50;
+  font-style: italic;
+  font-size: 2.25rem;
+  margin-top: .75em;
+  font-weight: bolder;
+  margin-bottom: .75em;
+
+}
+
+/* class applied to Link wrapping paragraph "Fill it up" to go back to shop  */
+
+
+.empty-car-link-to-products-list-e-commerce{
+  text-decoration: none;
+}
+
+
+/* class applied to paragraph "Fill it up" wrapped by Link to go back to shop  */
+
+
+.empty-cart-p-Visit-to-product-list-e-commerce {
+  color: #FFF;
+  background-color: #CD6547;
+  font-weight: bolder;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 12rem;
+  padding: .25em .75em;
+  border-radius: 6px;
+  margin-top: 1.5em;
+
+}
+
+
+
+
+/* ======== CART ITEM Component ========= */
+
+
+.section-cart-component-e-commerce {
+ /* padding: 2.5em .25em 0 .25em; */
+  position: relative;
+  padding: 0.25em;
+  background: #E4DACD;
+
+}
+
+.general-wrapper-cart-e-commerce {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ======== Title Cart Component ========= */
+
+/* class applied to div wrapping Title My bag  */
+
+
+  .wrapper-title-my-bag-e-commerce {
+    width: 90%;
+    padding: 0em 0.55em 0 0.55em;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 1.6;
+
+
+  }
+
+
+/* class applied to My bag title */
+
+
+.product-list-component-text-title-e-commerce{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1.6px;
+    margin-left: .65em;
+    margin-bottom: 0.5em;
+    color: #555D50;
+    font-weight: bolder;
+    
+
+
+}
+
+/* ======== CART Component ========= */
+
+
+
+
+/* class applied to each item cart added to the cart, works as a container wrapping
+
+img div product/price - div incre-decre - trash can */
+
+
+.card-for-item-added-to-cart-e-commerce {
+  display: flex;
+  border-radius: 6px;
+  width: 415px;
+  padding: 0.55em 0.55em 0.4em 0.55em;
+  margin-bottom: 1.25em;
+/*  margin-right: auto;
+  margin-left: auto; */
+  margin-top: 1em;
+
+  background: linear-gradient(180deg, #E4DACD,#E2BEA8);
+  background: linear-gradient(90deg,#E2BEA8, #E4DACD);
+  box-shadow: 0px 0px 5px 0px #E4DACD , 0px 0px 1px 0px #E2BEA8; 
+  box-shadow: 0px 0px 12px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+
+}
+
+/* class applied div wrapping img  */
+
+
+.div-img-cart-e-commerce {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: radial-gradient(90deg,#E2BEA8, #E4DACD);
+
+}
+
+/* class applied to img inside item cart added to the cart */
+
+.img-card-for-item-added-to-cart-e-commerce {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0;
+
+}
+
+
+/* class applied to div wrapping the following two div: div product/total price and div incr and decr. */
+
+.div-product-price-incr-decr-cart-item-e-commerce {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  padding: .5em 1em 0 0;
+
+
+}
+
+
+/* class applied to div wrapping product - total item price */
+
+
+.div-product-price-total-per-item-cart-item-e-commerce {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.25em 0.25em 0.25em .65em;
+
+}
+
+/* class applied to product name */
+
+
+.product-cart-item-e-commerce {
+  font-size: 1.7rem;
+  letter-spacing: 1.6px;
+  color: #555D50;
+  font-weight: bolder;
+  font-style: italic;
+  margin-bottom: .75em;
+}
+
+
+
+/* class applied to total per item */
+
+
+.total-per-item-cart-e-commerce {
+  color: #555D50;
+  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: .25em;
+  letter-spacing: 1.6px;
+  font-size: 1.20rem;
+
+}
+
+
+
+/* class applied to div wrapping icons + & - as well as number */
+
+
+.div-btn-decrement-increment-cart-item-e-commerce {
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+  margin-bottom: .15em;
+  width: 7rem; 
+
+}
+
+
+/* class applied to icons + & - */
+
+.btn-decrement-increment-cart-item {
+  background: #E4DACD;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #555D50;;
+  padding: .3em;
+  border: 1px solid #555D50;
+  width: .5rem;
+  text-align: center;
+}
+
+.btn-decrement-increment-cart-item:hover {
+  cursor: pointer;
+} 
+
+
+/* class applied to number per item added to cart */
+
+
+.item-added-per-object-cart-item-e-commerce {
+  font-size: 1.25rem;
+  color: #000;;
+
+}
+
+
+/* class applied to div wrapping div trash icon */
+
+
+.div-trash-icon-cart-item-e-commerce {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 0em;
+  margin-right: .5em;
+
+}
+
+
+/* class applied to trash icon */
+
+
+.cart-trash-cart-item {
+  cursor: pointer;
+  font-size: 1.4rem;
+
+}
+
+
+
+/* ======== CART Totals Component ========= */
+
+
+/* class applied as general wrapper */
+
+.wrapper-cart-totals-e-commerce {
+  border: 1px solid transparent;
+}
+
+
+.div-button-sub-shipping-total-cart-totals-e-commerce {
+ 
+ /*margin-left: .9em; */
+
+}
+
+
+.div-clear-continue-cart-totals-e-commerce {
+  display: flex;
+  width: 96%;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 3.5em;
+  justify-content: space-between;
+}
+
+
+/* class applied to button to clear cart*/
+
+.button-clear-cart-cart-totals-e-commcerce {
+
+  color: #FFF ;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  border: 1px solid #9DA6B6;
+  border-radius: 6px;
+  padding: 0.25em 0.75em;
+  background: #9DA6B6;
+  margin: 0 ;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+
+.button-clear-cart-cart-totals-e-commcerce:hover {
+  cursor: pointer;
+}
+
+
+
+.div-for-subtotal-shipping-and-total-e-commerce {
+  margin-top: 2.25rem;
+}
+
+
+/* class applied to 3 divs wrapping subtotal, shipping, total */
+
+
+.div-cart-totals-e-commerce {
+  letter-spacing: 1.6px;
+  font-size: 1.15rem;
+  color: #555D50;
+  display: flex;
+  padding: .4em 0;
+  justify-content: space-between;
+  margin-bottom: 1.25em;
+
+}
+
+/* class applied div wrapping total used to decorate */
+
+
+.top-border-total-cart-totals-e-commerce {
+  position: relative;
+
+}
+
+.top-border-total-cart-totals-e-commerce::before {
+  content: '';
+  position: absolute;
+  background: #9DA6B6;
+  background: #555D50;
+  top: -10%;
+  left: 0%;
+  width: 96%;
+  height: 3%;
+  opacity: 0.6;
+
+
+}
+
+/* class applied to each subtotal, shipping, totals for the margin*/
+
+
+.price-bottom-page-cart-totals-e-commerce{
+  margin-right: 1.2em;
+}
+
+
+.div-secure-checkout-out-e-commerce {
+  background: #E2BEA8;
+  border: 1px solid transparent;
+
+}
+
+
+/* class applied to link wrapping proceed to check out*/
+
+
+.link-proceed-to-check-out-cart-totals-e-commerce {
+  text-decoration: none;
+  font-style: none;
+}
+
+/* class applied to button end cart total used to enter form checkout page*/
+
+
+.proceed-to-check-out-cart-totals-e-commerce {
+  font-size: 1.25rem;
+  color: #FFF;
+  background: #CD6547;
+  font-weight: bolder;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: .25em .75em;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  box-shadow: 0px 0px 1px;
+  width: 85%;
+  width: 415px;
+
+
+}
+
+.proceed-to-check-out-cart-totals-e-commerce:hover {
+  cursor: pointer;
+} 
+
+
+
+
+/* ======== Checkout page form ========= */
+
+
+/* class applied to general wrapper */
+
+.div-general-checkout-page-e-commerce {
+    background: #E2BEA8;
+    border: 1px solid transparent;
+    position: relative;
+
+}
+
+
+/* class applied to div next form tage*/
+
+
+.div-background-next-to-form-checkout-page-e-commerce {
+  background-image: url('./Images/backround_checkout_larger_screen.jpg');
+  display: none;
+}
+
+/* class applied to Form tag*/
+
+
+.grid-form-checkout-page-e-commerce {
+  display: grid;
+  margin-top: 0.5em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.25em;
+  padding: 1em .25em 0 .25em;
+  justify-content: center;
+  border-radius: 6px;
+  
+}
+
+
+
+
+
+
+/* class applied to title billing details */
+
+
+.billing-details-checkout-page-e-commerce {
+  margin-top: 1em;
+  font-weight: bolder;
+  margin-bottom: 1.5em;
+  grid-column: span 3;
+  grid-row-start: 0;
+  grid-row-end: 1;
+  width: 350px;
+  letter-spacing: 1.6px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.6rem;
+
+}
+
+
+/* class applied every label in form  */
+
+
+.label-first-name-checkout-page-e-commerce,
+.label-last-name-checkout-page-e-commerce,
+.label-drop-down-menu-checkout-page-e-commerce,
+.label-city-checkout-page-e-commerce,
+.label-street-address-checkout-page-e-commerce,
+.label-city-number-checkout-page-e-commerce,
+.label-zip-checkout-page-e-commerce,
+.label-email-chekcout-page-e-commerce,
+.label-city-shipping-checkout-page-e-commerce,
+.label-address-shipping-checkout-page-e-commerce,
+.label-address-shipping-city-number-checkout-page-e-commerce,
+.label-zip-shipping-checkout-page-e-commerce {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.15rem;
+  letter-spacing: 1.6px;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+
+  
+}
+
+
+
+
+/* class applied to label first name  */
+
+
+.label-first-name-checkout-page-e-commerce {
+
+  width: 350px;
+  grid-column: span 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  /*margin-right: 3em; */
+
+}
+
+
+
+/* class applied to label last name  */
+
+.label-last-name-checkout-page-e-commerce  {
+  width: 350px;
+  grid-column: span 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+
+
+
+}
+
+
+/* class applied to label country */
+
+.label-drop-down-menu-checkout-page-e-commerce {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column: span 3;
+  width: 350px;
+
+}
+
+
+/* class applied to label city */
+
+
+.label-city-checkout-page-e-commerce {
+  grid-column: span 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  width: 350px;
+
+
+}
+
+/* class applied to div wrapping street shipping adress and street number */
+
+
+
+.div-billing-street-address-number-checkout-page-e-commerce   {
+  display: flex;
+  grid-column: span 3;
+  margin-top: .5em;
+
+}
+
+
+/* class applied to label street address  */
+
+
+.label-street-address-checkout-page-e-commerce {
+  width: 350px;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column: span 3;
+}
+
+
+/* class applied to label Number street address */
+
+
+.label-city-number-checkout-page-e-commerce {
+  width: 350px;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column: span 3;
+
+}
+
+
+/* class applied to label zip  */
+
+
+.label-zip-checkout-page-e-commerce {   
+  grid-column: span 3;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  width: 350px;
+
+
+}
+
+
+/* class applied to label street address */
+
+
+.label-email-chekcout-page-e-commerce {   
+  grid-column: span 3;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  margin-bottom: 0.5em;
+  width: 350px;
+}
+
+/* class applied to every input except select drop down menu */
+
+
+.input-checkout-page-e-commerce {
+
+  margin-top: .75em;
+  margin-bottom: .75em;
+  font-size: 1.05rem;
+  border-radius: 6px;
+  padding: 0.40em 0.22em;
+  letter-spacing: 1.6px;
+  font-family: Helvetica;
+  font-weight: 500;
+  box-shadow: 0px 0px 1px;
+ /* border: 1px solid #9DA6B6; */
+ 
+}
+
+
+/* class applied to every input except select drop down menu when focused */
+
+.input-checkout-page-e-commerce:focus {
+   /* border: 2px solid #9DA6B6; */
+    outline: none;
+}
+
+
+/* class applied to select drop down menu */
+
+
+.select-country-checkout-page-e-commerce {
+  margin-top: .75em;
+  margin-bottom: .75em;
+  font-size: 1.15rem;
+  border-radius: 6px;
+  border: 1px solid #9DA6B6;
+  padding: 0.66em 0.22em;
+  letter-spacing: 1.6px;
+  font-family: Helvetica;
+  font-weight: 500;
+  box-shadow: 0px 0px 1px;
+  width: 350px;
+
+}
+
+
+/* class applied to select drop down menu when focused */
+
+
+.select-country-checkout-page-e-commerce:focus {
+    border: 2px solid #9DA6B6;
+    outline: none;
+}
+
+
+
+
+
+/* class applied to div wrapping checkbox and label shippig different address */
+
+
+.div-checkbox-label-checkout-page-e-commerce {
+  grid-column: span 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width:  96%;
+  margin-bottom: 0.5em;
+
+}
+
+
+/* class applied to input checkbox shipping different address */
+
+.input-checkbox-ship-address-checkout-page-e-commerce:hover {
+  cursor: pointer;
+} 
+
+
+/* class applied to label associated to checkbox shipping different address */
+
+
+.label-checkbox-ship-address-checkout-page-e-commerce {
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+
+
+} 
+
+
+
+
+/* class applied to label city shipping different address */
+
+
+.label-city-shipping-checkout-page-e-commerce {
+  grid-column: span 3;
+  width: 96%;
+  margin-bottom: 0.5em;
+
+}
+
+
+.div-shipping-street-address-number-checkout-page-e-commerce {
+  grid-column: span 3;
+  display: flex;
+
+
+}
+
+/* class applied to label adress shipping different address */
+
+
+.label-address-shipping-checkout-page-e-commerce {
+  width: 13rem;
+  margin-right: 3em;
+  margin-bottom: 0.5em;
+
+}
+
+.label-address-shipping-city-number-checkout-page-e-commerce {
+  width: 6rem;
+
+}
+
+/* class applied to label Zip shipping different address */
+
+
+.label-zip-shipping-checkout-page-e-commerce {
+  grid-column: span 3;
+  width: 96%;
+  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+
+.submit-info-checkout-page-e-commerce {
+  border: none;
+  color: #FFF;
+  display: inline-block;
+  background-color: #CD6547;;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  text-align: center;
+  padding: .33em .1em;
+  border-radius: 6px;
+  margin-top: 1.25em;
+  width: 350px;
+  box-shadow: 0px 0px 1px;
+
+
+
+}
+
+
+/* class applied to Link wrapping continue verify order  */
+
+
+.link-continue-to-verify-order-checkout-page-e-commerce {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+/* class applied to button continue verify order  */
+
+
+.continue-to-veryfy-order-checkout-page-e-commerce {
+
+  border: none;
+  font-size: 1rem;
+  color: #28231D;
+  background-color: #E4DACD;
+  font-weight: bolder;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: .25em .75em;
+  border-radius: 6px;
+  margin: 1em 0 2.5em 0;
+  box-shadow: 0px 0px 1px;
+  width: 80%;
+
+}
+
+
+/* class applied to input zip/ to remove spin box   */
+
+.input-checkout-page-e-commerce[type=number]::-webkit-outer-spin-button,
+.input-checkout-page-e-commerce[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+ } 
+
+/* Firefox */
+.input-checkout-page-e-commerce[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+
+
+/* ======== Verify Checkout Order Component ========= */
+
+
+
+.general-div-verify-order-e-commerce {
+  background: #E2BEA8;
+  padding: 0.25em;
+  background: #E4DACD;
+
+  
+}
+
+
+
+  /* class applied to section wrapping Verify my order, adress and my Bag */
+
+.section-infos-verify-order-e-commerce {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 0 1.5em;
+  background: #E2BEA8;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+  /* class applied to section wrapping Cart selected, div containing sub,shipping and subtotal and paypal button */
+
+.section-my-order-verify-order-e-commerce {
+  margin: 0 auto 1em auto; /* to change to top */
+  padding: 0 1.5em;
+  background: #E2BEA8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+  .section-infos-verify-order-e-commerce::before {
+    position: absolute;
+    content: '';
+    background: #E4DACD;
+    opacity: .09;
+    width: 99%;
+    height: 70%;
+    top: 0;
+    left: 0.5%;
+    border-radius: 6px;
+  }
+
+
+
+
+
+/* class applied to div wrapping Billing infos such as title, names, adress or "normal" infos  */
+
+
+.div-infos-names-address-verify-order-e-commerce {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin-bottom: 0;  /* to change top */
+  letter-spacing: 1.6px;
+  padding: .4em 0;
+  font-size: 1.15rem;
+  grid-row-gap: 0.4em; /* to change */
+  position: relative;
+
+}
+
+
+
+.div-section-two-h3-cart-list-cart-totals-pay-pal {
+  width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+
+.h2-title-verify-order-e-commerce {
+  font-size: 1.75em;
+  grid-column: span 3;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+  letter-spacing: 1.6px;
+  font-style: italic;
+
+
+}
+
+
+/* class applied to billing/shipping title  */
+
+
+.title-delivery-address-verify-order-e-commerce,
+.title-billing-address-verify-order-e-commerce,
+.title-delivery-address-modal-verify-order-e-commerce {
+  grid-column: span 3;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: .5em;
+  padding: 0 0 .25em 0;
+
+}
+
+
+.title-billing-address-verify-order-e-commerce:before {
+  position: absolute;
+  content: '';
+  background: #555D50;;
+  height: .01rem;
+  /*width: 94%;*/
+  width: 432px;
+  top: 29%;
+  left: 0;
+
+
+}
+
+
+
+
+/* class applied to first and last names */
+
+
+.first-last-names-verify-order-e-commerce {
+  grid-column: span 3;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* class applied to billing or without shipping address  */
+
+.billing-address-verify-order-e-commerce {
+  grid-column: span 3;
+  margin-top: 0;
+  margin-bottom: 0;
+
+
+}
+
+/* class applied to billing zip and city address  or without shipping */
+
+
+.billing-zip-city-verify-order-e-commerce {
+  grid-column: span 3;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+
+/* class applied to country */
+
+
+.country-verify-order-e-commerce {
+    grid-column: span 3;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+
+/* class applied to email */
+
+
+.email-verify-order-e-commerce {
+  letter-spacing: 1.6px;
+  font-size: 1.15rem;
+  letter-spacing: 1.6px;
+  font-style: italic;
+  margin-bottom: 4em;
+}
+
+/* class applied to title my bag in firt section small screen */
+
+
+.my-bag-section-one-verify-order-e-commerce {
+  font-size: 1.5rem;
+  position: relative;
+  margin-bottom: 1.75em;
+  grid-column: span 3;
+}
+
+.my-bag-section-one-verify-order-e-commerce:before {
+  position: absolute;
+  content: '';
+  background: #555D50;
+  height: .01rem;
+  width: 432px;
+  top: 122%;
+  left: 0%;
+}
+
+.div-section-two-h3-cart-list-cart-totals-pay-pal {
+  width: 100%;
+  display: grid;
+  justify-content: left;
+
+}
+
+/* class applied to title my bag in second section large screen */
+
+
+
+.my-bag-section-two-verify-order-e-commerce {
+  font-size: 1.5rem;
+  position: relative;
+  margin-bottom: 1.75em; /*to change top */
+  display: none;
+
+
+}
+
+
+
+.span-Paypalbutton-verify-order-e-commerce {
+  /*margin-left: 1.3em;*/
+  margin-right: auto;
+}
+
+
+
+
+/* ======== Verify Order Cart Item Component ========= */
+
+
+.card-for-item-in-verify-to-cart-e-commerce {
+  display: flex;
+  border-radius: 6px;
+  width: 415px;
+  padding: 0.55em 0.55em 0.4em 0.55em;
+  margin-bottom: 1.75em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  background: linear-gradient(180deg, #E4DACD,#E2BEA8);
+  background: linear-gradient(90deg,#E2BEA8, #E4DACD);
+  box-shadow: 0px 0px 5px 0px #E4DACD , 0px 0px 1px 0px #E2BEA8; 
+  box-shadow: 0px 0px 12px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+
+}
+
+
+
+
+
+/* class applied div wrapping img  */
+
+
+.div-img-cart-item-verify-e-commerce {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: radial-gradient(90deg,#E2BEA8, #E4DACD);
+
+}
+
+/* class applied to img inside item cart added to the cart */
+
+.img-card-for-item-in-verify-order-e-commerce{
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0;
+
+}
+
+.card-name-contenance-numbers-of-products-total-price-e-commerce {
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1.6px;
+  color: #555D50;
+  padding: 0;
+}
+
+
+.title-card-for-item-in-verify-order-e-commerce {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: .6em;
+  margin-bottom: 0;
+  text-align: center;
+  font-style: italic;
+}
+
+.total-price-per-item-card-for-item-in-verify-order-e-commerce {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555D50;
+
+}
+
+.contenance-card-for-item-in-verify-order-e-commerce {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.count-card-for-item-in-verify-order-e-commerce {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.1rem;
+
+}
+
+/* class applied to price of product */
+
+.price-card-product-e-commerce {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #555D50;
+  font-weight: bolder;
+
+}
+
+
+/* ======== Footer Component ========= */
+
+
+/* class applied to tag footer, acts as wrapper  */
+
+
+.footer-e-commerce {
+  border: 1px solid transparent;
+  background: #E4DACD;
+  padding: 1.5em 0;
+
+}
+
+/* class applied to div wrapping social media icon  */
+
+
+.container-social-media-footer-e-commerce {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* class applied to every social media icon: insta, facebook, twitter  */
+
+
+
+.icon-social-media-footer-e-commerce {
+    font-weight: bolder;
+    color: #393438;
+}
+
+
+
+
+.facebook-footer-e-commerce:hover {
+
+    color: #4267B2;
+    cursor: pointer;
+    filter: drop-shadow(0px 2px 3px #14171A);
+    /*filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));*/
+    filter: drop-shadow(0px 2px 12px #006DB2);
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+
+}
+
+  .instagram-footer-e-commerce:hover {
+   background: linear-gradient(60deg, #FFDC80,  #FCAF45, #F56040, #FD1D1D, #E1306C, #C13584, #833AB4, #5851DB, #405DE6);
+    /*color: #FD1D1D;*/
+    cursor: pointer;
+
+    /*filter: drop-shadow(0px 2px 12px #FD1D1D);*/
+    filter: drop-shadow(0px 2px 3px #14171A);
+
+  
+  }
+
+
+  .twitter-footer-e-commerce:hover{
+    color: #1DA1F2;
+    cursor: pointer;
+    filter: drop-shadow(0px 2px 3px #14171A);
+
+  
+
+  }
+
+  /* class applied to div wrapping greenLeman + copyright  */
+
+
+  .div-copyright-green-lemon-footer-e-commerce{
+    font-size: 1rem;
+    margin: 1.5rem auto 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  /* class applied to paragraph copyright */
+
+  .copyright-footer-e-commerce {
+    margin: 0 auto 0 auto;
+  }
+
+
+
+  .GreenLemon-footer-e-commerce {
+    color: #171c20;
+    background-image: linear-gradient(60deg, #000, #006400);
+    background-clip: text;
+    margin: 1.5em auto 0.25em auto;
+
+  }
+
+
+  .wrapper-Products-cartcolumns {
+    display: none;
+  }
+
+
+
+
+/* ======== MEDIA QUERY ========= */
+
+
+/*  display: flex;
+  padding: 1em 0;
+  margin-top: 0.25em;
+  margin-right: 1em;
+  width:  10rem;
+  align-items: center;
+  justify-content: right;
+  font-weight: bolder;
+  color: #000; */
+/* ======== Navbar Component ========= */
+
+
+@media (min-width: 640px) {
+
+
+  .link-navbar-e-commerce{
+    margin-right: 1em;
+  }
+
+
+
+
+}
+
+
+/* ======== HOME Component ========= */
+
+
+
+
+@media (min-width: 725px) {
+
+    /* class applied to only div wrapping Link in Home Component  */
+
+    .home-div-h2-Link-to-products-e-commerce {
+      background-image:url('./Images/background_img_home_larger_screen_4.png');
+      background-blend-mode: multiplay;
+      background-position: bottom left;
+      background-color: #e4dacd;
+      border: 1px solid #e4dacd;
+      height: 80vh;
+    }
+}
+
+
+ @media (min-width: 920px) {
+
+    /* class applied to only div wrapping Link in Home Component  */
+
+  .home-div-h2-Link-to-products-e-commerce {
+    background-position: center left;
+  }
+
+
+  
+  /* class applied to h2 slogan in div Home Component  */
+
+  .home-h2-slogoan-list-e-commerce {
+    margin-left: 1.5em;
+  }
+
+  /* class applied to paragraph wrapped by Link in Home Component  */
+
+
+  .home-p-Visit-to-product-list-e-commerce{
+    margin-left: 2.25em;
+
+  }
+
+}
+
+
+ @media (min-width: 1250px) {
+
+  /* class applied to only div wrapping Link in Home Component  */
+
+  .home-div-h2-Link-to-products-e-commerce {
+    background-position: top left;
+  }
+
+
+  /* class applied to paragraph wrapped by Link in Home Component  */
+
+
+  .home-h2-slogoan-list-e-commerce {
+      margin-left: 3em;
+      font-size: 2rem;
+  }
+
+
+  /* class applied to paragraph wrapped by Link in Home Component  */
+ 
+  .home-p-Visit-to-product-list-e-commerce {
+    margin-left: 4.5em;
+    font-size: 1.3rem;
+  
+  }
+
+}
+
+
+
+
+
+
+
+/* =============== PRODUCT Component ====================*/
+
+
+
+@media(min-width: 640px) {
+
+  .wrapper-bouncy-skin-title-product-e-commerce {
+    position: relative;
+    grid-column: span 2;
+  }
+
+
+
+
+  /* class applied to h2 Have a bouncy skin! in Product Component  */
+
+  .bouncy-skin-product-e-commerce {
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: auto;
+    margin-top: 1.25em; /* margin top of origin set, in case just araise */
+    grid-column: span 2;
+
+  }
+
+
+
+/* class applied to h2 Have a bouncy skin! in Product Component  */
+
+  .bouncy-skin-product-e-commerce {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    letter-spacing: 1.3px;
+    position: relative;
+    width: 400px;
+  }
+
+
+
+
+  /* General Container wrapping all the cards in Product as well as title */
+
+
+  .container-for-card-product-e-commerce {
+    background-color: #E2BEA8;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+  }
+
+
+
+  /*  Container for each individual card in Product */
+
+
+  .img-container-product-e-commerce {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 250px;
+    border-radius: 22px;
+    background: linear-gradient(180deg,#E2BEA8, #E4DACD);
+    margin-bottom: 4em;
+
+
+  }
+
+  /*  class applied to link wrapping picture product and Find out more About */
+
+
+  .link-to-details-product-e-commerce {
+    width: 100%;
+
+  }
+
+
+  /* class applied picture product wrapped by link wrapping  */
+
+  .img-card-product-e-commerce {
+    margin-top: .35em;
+    border-radius: 22px
+  }
+
+  .link-to-details-product-e-commerce::before{
+    height: 92%;
+    bottom: 2%;
+    border-radius: 22px;
+
+  }
+
+  /* class applied to Find out more About wrapped by Link */
+
+  .find-out-card-product-e-commerce {
+    border-radius: 22px;
+    font-size: 1.3rem;
+
+
+  }
+
+
+  /* class applied to div wrapping name,contenance and price */
+
+  .card-name-price-product-e-commerce {
+    margin-top: .75em;
+    margin-left: 1em; 
+
+  }
+
+    /* class applied to name of product */
+
+  .title-card-product-e-commerce {
+    font-size: 1.5rem;
+    text-align: left;
+
+  }
+
+  /* class applied to contenace of product */
+
+  .contenance-card-product-e-commerce {
+    font-size: 0.95rem;
+    text-align: left;
+
+
+
+  }
+
+  /* class applied to price of product */
+
+  .price-card-product-e-commerce {
+    font-size: 1rem;
+    text-align: left;
+
+
+  }
+
+
+  /* class applied to icon bag to add elements */
+
+  .card-btn-product-e-commerce {
+    width: 2rem;
+    top: 85%;
+    right: 10%;
+
+  }
+
+}
+
+
+
+
+
+@media(min-width: 760px) {
+
+
+
+  .link-to-details-product-e-commerce::before{
+      height: 93%;
+      bottom: 2%;
+      border-radius: 22px;
+
+    }
+
+  /* class applied to Find out more About wrapped by Link */
+
+  .find-out-card-product-e-commerce {
+    border-radius: 22px;
+
+
+  }
+
+}
+
+@media(min-width: 825px) {
+
+  .wrapper-bouncy-skin-title-product-e-commerce {
+    position: relative;
+    grid-column: span 3;
+    
+  }
+
+
+  .wrapper-bouncy-skin-title-product-e-commerce:before {
+    
+
+  } 
+
+
+  /* class applied to h2 Have a bouncy skin! in Product Component  */
+
+  .bouncy-skin-product-e-commerce {
+    margin-bottom: 2em;
+    margin-top: 1.25em; /* margin top of origin set, in case just araise */
+    grid-column: span 2;
+
+  }
+
+
+
+
+    
+  /* class applied to H2 bouncy Skin */
+
+  .bouncy-skin-product-e-commerce{
+    grid-column: span 3;
+    margin-top: 1.25em;
+
+  }
+
+
+  .container-for-card-product-e-commerce {
+    grid-template-columns: auto auto auto;
+  }
+
+
+
+  /*  Container for each individual card in Product */
+
+
+  .img-container-product-e-commerce {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 200px;
+    border-radius: 22px;
+    background: linear-gradient(180deg,#E2BEA8, #E4DACD);
+    box-shadow: 0px 0px 12px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+
+  }
+
+  /*  class applied to link wrapping picture product and Find out more About */
+
+
+  .link-to-details-product-e-commerce {
+    width: 100%;
+
+  }
+
+
+  .link-to-details-product-e-commerce::before{
+      height: 89%;
+      bottom: 3%;
+      border-radius: 22px;
+
+    }
+
+  /* class applied to Find out more About wrapped by Link */
+
+  .find-out-card-product-e-commerce {
+    border-radius: 22px;
+    font-size: .95rem;
+
+  }
+
+
+    /* class applied to name of product */
+
+  .title-card-product-e-commerce {
+    font-size: 1.5rem;
+
+  }
+
+  /* class applied to contenace of product */
+
+  .contenance-card-product-e-commerce {
+    font-size: 0.95rem;
+
+
+
+  }
+
+  /* class applied to price of product */
+
+  .price-card-product-e-commerce {
+    font-size: 1rem;
+
+  }
+
+
+  /* class applied to icon bag to add elements */
+
+  .card-btn-product-e-commerce {
+    width: 2rem;
+    top: 85%;
+    right: 10%; 
+
+  }
+
+}
+
+
+@media(min-width: 925px) {
+
+ 
+  /* class applied to h2 Have a bouncy skin! in Product Component  */
+
+  .bouncy-skin-product-e-commerce {
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: auto;
+    margin-top: 1.25em; /* margin top of origin set, in case just araise */
+    grid-column: span 3;
+    font-size: 2.6rem;
+
+  }
+
+
+
+}
+
+
+ 
+
+@media(min-width: 1175px) {
+
+
+  .wrapper-bouncy-skin-title-product-e-commerce:before {
+    width: 620px;
+    left: 2%;
+  }
+
+  .bouncy-skin-product-e-commerce {
+    grid-column: span 3;
+    font-size: 3.5rem;
+    width: 550px;
+
+  }
+
+  .bouncy-skin-product-e-commerce:after {
+    width: 120px;
+  
+  }
+
+
+
+}
+
+
+@media(min-width: 1245px) {
+
+  .wrapper-bouncy-skin-title-product-e-commerce {
+    grid-column: span 2;
+  
+  }
+
+  .wrapper-bouncy-skin-title-product-e-commerce:before {
+    left: 3%;
+
+
+  } 
+  
+  /* class applied to Title */
+
+  .bouncy-skin-product-e-commerce{
+    grid-column: span 2;
+    margin-top: 1.25em;
+    margin-left: 1em;
+
+  }
+
+
+
+    /* class applied to general container o */
+
+
+  .container-for-card-product-e-commerce {
+    grid-template-columns: auto auto ;
+  }
+
+
+
+  /* class applied to each card */
+
+
+  .img-container-product-e-commerce {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    width: 470px;
+    padding: 0.4em 0.55em;
+    margin-bottom: 4em;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+
+    background: linear-gradient(180deg, #E4DACD,#E2BEA8);
+    background: linear-gradient(90deg,#E2BEA8, #E4DACD);
+
+    box-shadow: 0px 0px 5px 0px #E4DACD , 0px 0px 1px 0px #E2BEA8; 
+    box-shadow: 0px 0px 12px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+  }
+
+  /*  class applied to link wrapping picture product and Find out more About */
+
+
+  .link-to-details-product-e-commerce {
+    width: 80%;
+    position: relative;
+
+  }
+
+
+  /* class applied picture product wrapped by link wrapping  */
+
+
+  .img-card-product-e-commerce {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; 
+
+  }
+
+  /* Decoration class applied to Link wrapping picture product and Find out more About  */
+
+
+  .link-to-details-product-e-commerce::before{
+    height: 93%;
+    top: 2%;
+    border-radius: 6px;
+
+  }
+
+  .find-out-card-product-e-commerce {
+      font-size: 1.5rem;
+
+
+  }
+
+  /* class applied to button wrapping cart icon used to add product */
+
+  .card-btn-product-e-commerce {
+    right: 4%;
+    top: 79%;
+
+  }
+
+  /* class applied to div wrapping name,contenance and price */
+
+  .card-name-price-product-e-commerce {
+    margin-top: 2em;
+    width: 45%;
+    margin-left: .75em;
+
+  }
+
+  /* class applied to name of product */
+
+  .title-card-product-e-commerce {
+    font-size: 2rem;
+    text-align: center;
+
+  }
+
+  /* class applied to contenace of product */
+
+  .contenance-card-product-e-commerce {
+    text-align: center;
+    font-size: 1.15rem;
+
+  }
+
+  /* class applied to price of product */
+
+  .price-card-product-e-commerce {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.3rem;
+
+  }
+
+
+}
+
+
+
+
+
+/* ======== Product Details Component ========= */
+
+
+/* class applied general div in Details */
+
+
+.div-wrapper-details-product-e-commerce {
+  /*padding: 1em .75em 0.75em 2.5em; */
+  padding: 0 .25em;
+  /*background: #E2BEA8; */
+  background: #E4DACD;
+  letter-spacing: 1.6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; 
+
+}
+
+.wrapper-title-img-box-price-contenance-e-commerce {
+  background: #E2BEA8;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 1.85em;
+}
+
+
+/* class applied Title (name of the product) */
+
+.title-details-products-e-commerce {
+    font-size: 2.5rem;
+    font-style: italic;
+    letter-spacing: 1.6px;
+    color: #555D50;
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-right: .1em;
+    margin-bottom: 1em;
+
+}
+
+
+/* class applied to div wrapping IMG of product */
+
+
+.div-img-details-products-e-commerce {
+  position: relative;
+  width: 400px;
+  
+}
+
+/* class applied to IMG of product decoration */
+
+
+.div-img-details-products-e-commerce::before {
+  position: absolute;
+  content: '';
+  background: #E2DACD;
+  height: 100%;
+ /* width: 70%;*/
+  width: 340px;
+  top: 10%;
+  right: -3%;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+
+}
+
+
+/* class applied IMG of product */
+
+
+.img-details-products-e-commerce {
+  border-radius: 6px;
+  display: block;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin-top: .5em;
+  position: relative;
+}
+
+/* class applied div wrapping price + contenance  */
+
+
+.price-quantity-box-details-products-e-commerce {
+
+  display: flex;
+  margin-top: 4em;
+  margin-bottom: 2.2em;
+  padding: .1em .75em;
+  font-size: 1.15rem;
+  width: 340px;
+  border: 1px solid #E4DACD;
+  justify-content: space-between;
+  border-radius: 6px;
+  color: #555D50;
+  font-weight: bolder;
+
+}
+
+.wrapper-buttons-large-screen-details-product-e-commerce {
+  display: none;
+}
+
+.button-large-screen-continue-shop-modal-e-commerce {
+  display: none;
+}
+
+
+.wrapper-paragraph-info-buttons-e-commerce {
+  background: #E2BEA8;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 2.5em;
+
+}
+
+
+/* class applied to two paragraph infos  */
+
+
+.div-infos-details-products-e-commerce {
+  margin-top: 0;
+  max-width: 400px;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+
+/* class applied to frist paragraph infos  */
+
+
+.info-details-products-e-commerce {
+  margin-bottom: 0;
+  font-style: italic;
+
+}
+
+/* class applied to second paragraph infos  */
+
+
+.info-use-for-details-products-e-commerce {
+   margin-top: 1.5em;
+   font-style: italic;
+
+}
+
+
+/* class applied to div wrapping two buttons named continue shoping or add to cart  */
+
+
+.wrapper-buttons-details-product-e-commerce {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+
+@media(min-width: 640px) {
+
+  /* class applied general div in Details */
+
+
+  .div-wrapper-details-product-e-commerce {
+    /*padding: 1em .75em 0.75em 2.5em; */
+    padding: 0 .5em;
+  }
+
+  .wrapper-title-img-box-price-contenance-e-commerce {
+    align-items: center;
+    padding: 0 0 0 0em;
+    position: relative;
+
+  }
+
+  /* class applied Title (name of the product) */
+
+  .title-details-products-e-commerce {
+    font-size: 3rem;
+    margin-top: 1em;
+
+  }
+
+  /* class applied div wrapping price + contenance  */
+
+
+  .price-quantity-box-details-products-e-commerce {
+    width: 380px;
+
+
+}
+
+  .wrapper-title-img-box-price-contenance-e-commerce {
+    align-items: center;
+    padding: 0 0 0 0em;
+    position: relative;
+
+  }
+
+
+
+
+  .wrapper-paragraph-info-buttons-e-commerce {
+    align-items: center;
+    padding: 0;
+
+
+  }
+
+  /* class applied to div wrapping two buttons named continue shoping or add to cart  */
+
+
+  .wrapper-buttons-details-product-e-commerce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.25em;
+    margin-bottom: 3em;
+  }
+
+}
+
+
+@media(min-width: 1170px) {
+    /* class applied Title (name of the product) */
+
+  .title-details-products-e-commerce {
+    font-size: 3rem;
+    margin-top: 1em;
+
+  }
+
+    /* class applied general div in Details */
+
+
+  .div-wrapper-details-product-e-commerce {
+    /*padding: 1em .75em 0.75em 2.5em; */
+    display: grid;
+    grid-template-columns: auto auto;
+
+  }
+
+  .wrapper-title-img-box-price-contenance-e-commerce {
+    position: relative;
+
+  }
+
+ /* .wrapper-title-img-box-price-contenance-e-commerce:before {
+    position: absolute;
+    content: '';
+    width: 80%;
+    width: 80%;
+    height: 80%;
+    background: transparent;
+    top: 18%;
+    left: 11%;
+    opacity: 1;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+  } */
+
+
+
+
+
+  .wrapper-buttons-large-screen-details-product-e-commerce {
+    display: unset;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    width: 400px;
+  }
+
+
+
+
+  .button-large-screen-continue-shop-modal-e-commerce {
+    display: unset;
+
+  }
+
+
+  .wrapper-paragraph-info-buttons-e-commerce {
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+
+  }
+
+  .wrapper-paragraph-info-buttons-e-commerce:before {
+    position: absolute;
+    content: '';
+    width: 80%;
+    width: 80%;
+    height: 55%;
+    background: transparent;
+    top: 21%;
+    left: 11%;
+    opacity: 1;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+  }
+
+  /* class applied to frist paragraph infos  */
+
+
+  .info-details-products-e-commerce {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-top: 9em;
+    margin-bottom: 0em;
+
+
+
+  }
+
+  /* class applied to second paragraph infos  */
+
+
+  .info-use-for-details-products-e-commerce {
+    margin-top: 2em;
+    font-style: italic;
+    line-height: 1.6;
+    font-size: 1.3rem;
+
+
+
+  }
+
+  /* class applied to second paragraph infos  */
+
+
+  .div-infos-details-products-e-commerce {
+    max-width: 440px;
+    margin-bottom: 0;
+    text-align: justify;
+    margin-top: 0.1em;
+
+  }
+
+    /* class applied to div wrapping two buttons named continue shoping or add to cart  */
+
+
+  .wrapper-buttons-details-product-e-commerce {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+}
+
+
+
+ /* =============== Page empty Carty ===================/*
+
+
+@media(min-width: 640px) {
+
+    /* class applied general wrapper  */
+
+
+  .div-empty-cart-e-commerce {
+    background-size: 400px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 75vh
+
+  }
+
+
+
+
+
+@media(min-width: 825px) {
+
+    /* class applied general wrapper  */
+
+
+  .div-empty-cart-e-commerce {
+    background-size: 460px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 60vh
+
+  }
+
+    /* class applied to div wrapping message bag empty + button fill it up  */
+
+
+  .div-message-empty-fill-it-up-empty-cart-e-commerce {
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+
+}
+
+@media(min-width: 925px) {
+
+    /* class applied general wrapper  */
+
+  .div-empty-cart-e-commerce {
+      background-color: #FFF;
+      background: url('./Images/background_empty_cart_draw.jpg');
+      background-size: 550px;
+      background-position: right center;
+      background-repeat: no-repeat;
+      height: 75vh
+  }
+
+}
+
+@media(min-width: 1175px) {
+
+  /* class applied general wrapper  */
+
+  .div-empty-cart-e-commerce {
+    background-position: center right;
+    background-size: 600px;
+
+  }
+
+  /* class applied to div wrapping message bag empty + button fill it up  */
+
+
+  .div-message-empty-fill-it-up-empty-cart-e-commerce {
+    margin-left: 4em;
+    margin-top: 1.75em;
+
+
+  }
+
+
+
+}
+
+@media(min-width: 1245px) {
+
+    /* class applied general wrapper  */
+
+
+  .div-empty-cart-e-commerce {
+    background-position: center right;
+    background-size: 650px;
+    height: 85vh
+
+
+  }
+
+   /* class applied to div wrapping message bag empty + button fill it up  */
+
+
+  .div-message-empty-fill-it-up-empty-cart-e-commerce {
+    margin-top: 3em;
+
+  }
+
+}
+
+
+@media(min-width: 1430px) {
+
+    /* class applied general wrapper  */
+
+
+  .div-empty-cart-e-commerce {
+    background-position: center right;
+    background-size: 700px;
+  }
+
+}
+
+
+
+
+/* ======== Title Cart Component ========= */
+
+
+
+.product-list-component-text-title-e-commerce{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1.6px;
+    /*margin-left: .65em; */
+
+    margin-bottom: 0.5em;
+    color: #555D50;
+    font-weight: bolder;
+
+
+}
+
+
+
+/* ======== CART Component ========= */
+
+
+
+/* class applied to each item cart added to the cart, works as a container wrapping
+
+img div product/price - div incre-decre - trash can */
+
+
+.card-for-item-added-to-cart-e-commerce {
+  display: flex;
+  border-radius: 6px;
+  width: 415px;
+  padding: 0.55em 0.55em 0.4em 0.55em;
+  margin-bottom: 1.25em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  background: linear-gradient(180deg, #E4DACD,#E2BEA8);
+  background: linear-gradient(90deg,#E2BEA8, #E4DACD);
+  box-shadow: 0px 0px 5px 0px #E4DACD , 0px 0px 1px 0px #E2BEA8; 
+  box-shadow: 0px 0px 5px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+
+}
+
+/* class applied div wrapping img  */
+
+
+.div-img-cart-e-commerce {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: radial-gradient(90deg,#E2BEA8, #E4DACD);
+
+}
+
+/* class applied to img inside item cart added to the cart */
+
+.img-card-for-item-added-to-cart-e-commerce {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0;
+
+}
+
+
+/* class applied to div wrapping the following two div: div product/total price and div incr and decr. */
+
+.div-product-price-incr-decr-cart-item-e-commerce {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  padding: .5em 1em 0 0;
+
+
+}
+
+
+/* class applied to div wrapping product - total item price */
+
+
+.div-product-price-total-per-item-cart-item-e-commerce {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.25em 0.25em 0.25em .65em;
+
+}
+
+/* class applied to product name */
+
+
+.product-cart-item-e-commerce {
+  font-size: 1.7rem;
+  letter-spacing: 1.6px;
+  color: #555D50;
+  font-weight: bolder;
+  font-style: italic;
+  margin-bottom: .75em;
+}
+
+
+
+/* class applied to total per item */
+
+
+.total-per-item-cart-e-commerce {
+  color: #555D50;
+  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: .25em;
+  letter-spacing: 1.6px;
+  font-size: 1.20rem;
+
+}
+
+
+
+/* class applied to div wrapping icons + & - as well as number */
+
+
+.div-btn-decrement-increment-cart-item-e-commerce {
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+  margin-bottom: .15em;
+  width: 7rem; 
+
+}
+
+
+/* class applied to icons + & - */
+
+.btn-decrement-increment-cart-item {
+  background: #E4DACD;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #555D50;;
+  padding: .3em;
+  border: 1px solid #555D50;
+  width: .5rem;
+  text-align: center;
+}
+
+.btn-decrement-increment-cart-item:hover {
+  cursor: pointer;
+} 
+
+
+/* class applied to number per item added to cart */
+
+
+.item-added-per-object-cart-item-e-commerce {
+  font-size: 1.25rem;
+  color: #000;;
+
+}
+
+
+/* class applied to div wrapping div trash icon */
+
+
+.div-trash-icon-cart-item-e-commerce {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 0em;
+  margin-right: .5em;
+
+}
+
+
+/* class applied to trash icon */
+
+
+.cart-trash-cart-item {
+  cursor: pointer;
+  font-size: 1.4rem;
+
+}
+
+/* ======== Title Cart Component ========= */
+
+.product-list-component-text-title-e-commerce{
+    font-family: 'Montserrat', sans-serif;
+    /*font-size: 2.5rem;*/
+    letter-spacing: 1.6px;
+    /*margin-left: .65em; */
+
+    margin-bottom: 0.5em;
+    color: #555D50;
+    font-weight: bolder;
+
+
+}
+
+/* class applied to div wrapping Title My bag  */
+
+
+  .wrapper-title-my-bag-e-commerce {
+    /*width: 90%;*/
+    width: 415px;
+    /*padding: 0em 0.55em 0 0.55em;*/
+    padding: 0em 0.55em 0 0em;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 1.6;
+    margin-right: auto;
+    margin-left: auto;
+
+
+  }
+
+
+
+/* ======== CART Component ========= */
+
+
+
+/* class applied to each item cart added to the cart, works as a container wrapping
+
+img div product/price - div incre-decre - trash can */
+
+
+.card-for-item-added-to-cart-e-commerce {
+  display: flex;
+  border-radius: 6px;
+  /*width: 90%;*/
+  width: 415px;
+  padding: 0.55em 0.55em 0.4em 0.55em;
+  margin-bottom: 1.25em;
+  margin-right: auto;
+  margin-left: auto;
+
+  background: linear-gradient(180deg, #E4DACD,#E2BEA8);
+  background: linear-gradient(90deg,#E2BEA8, #E4DACD);
+  box-shadow: 0px 0px 5px 0px #E4DACD , 0px 0px 1px 0px #E2BEA8; 
+  box-shadow: 0px 0px 12px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+
+}
+
+/* class applied div wrapping img  */
+
+
+.div-img-cart-e-commerce {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: radial-gradient(90deg,#E2BEA8, #E4DACD);
+
+}
+
+/* class applied to img inside item cart added to the cart */
+
+.img-card-for-item-added-to-cart-e-commerce {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0;
+
+}
+
+
+/* class applied to div wrapping the following two div: div product/total price and div incr and decr. */
+
+.div-product-price-incr-decr-cart-item-e-commerce {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  padding: .25em 1em 0 0;
+
+}
+
+
+/* class applied to div wrapping product - total item price */
+
+
+.div-product-price-total-per-item-cart-item-e-commerce {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0 0.25em 0 0.65em;
+
+}
+
+/* class applied to product name */
+
+
+.product-cart-item-e-commerce {
+  font-size: 1.7rem;
+  letter-spacing: 1.6px;
+  color: #555D50;
+  font-weight: bolder;
+  font-style: italic;
+  margin-bottom: .75em;
+}
+
+
+
+/* class applied to total per item */
+
+
+.total-per-item-cart-e-commerce {
+  color: #555D50;
+  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: .25em;
+  letter-spacing: 1.6px;
+  font-size: 1.20rem;
+
+}
+
+
+
+/* class applied to div wrapping icons + & - as well as number */
+
+
+.div-btn-decrement-increment-cart-item-e-commerce {
+  display: flex;
+  justify-content: space-around;
+  margin-top: auto;
+  /*margin-bottom: .15em;*/
+  margin-bottom: 0em;
+  width: 7rem; 
+
+}
+
+
+/* class applied to icons + & - */
+
+.btn-decrement-increment-cart-item {
+  background: #E4DACD;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #555D50;;
+  padding: .3em;
+  border: 1px solid #555D50;
+  width: .5rem;
+  text-align: center;
+  margin-bottom: .25em; /*new to add*/
+}
+
+.btn-decrement-increment-cart-item:hover {
+  cursor: pointer;
+} 
+
+
+/* class applied to number per item added to cart */
+
+
+.item-added-per-object-cart-item-e-commerce {
+  font-size: 1.25rem;
+  color: #000;;
+
+}
+
+
+/* class applied to div wrapping div trash icon */
+
+
+.div-trash-icon-cart-item-e-commerce {
+  margin-left: auto;
+  margin-top: auto;
+  /*margin-bottom: 0em;*/
+  margin-bottom: .05em;
+  margin-right: .5em;
+
+}
+
+
+/* class applied to trash icon */
+
+
+.cart-trash-cart-item {
+  cursor: pointer;
+  font-size: 1.4rem;
+
+}
+
+
+
+/* ======== CART Totals Component ========= */
+
+
+.div-button-sub-shipping-total-cart-totals-e-commerce {
+ 
+
+}
+
+
+.div-clear-continue-cart-totals-e-commerce {
+  display: flex;
+  width: 96%;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 3.5em;
+  justify-content: space-between;
+}
+
+
+/* class applied to button to clear cart*/
+
+.button-clear-cart-cart-totals-e-commcerce {
+
+  color: #FFF ;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  border: 1px solid #9DA6B6;
+  border-radius: 6px;
+  padding: 0.25em 0.75em;
+  background: #9DA6B6;
+  margin: 0 ;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+
+.button-clear-cart-cart-totals-e-commcerce:hover {
+  cursor: pointer;
+}
+
+
+/* new */
+
+.div-for-subtotal-shipping-and-total-e-commerce {
+  margin-top: 2.25rem;
+  width: 430px;   
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* class applied to 3 divs wrapping subtotal, shipping, total  */
+
+
+.div-cart-totals-e-commerce {
+  letter-spacing: 1.6px;
+  font-size: 1.15rem;
+  color: #555D50;
+  display: flex;
+  padding: .4em 0;
+  justify-content: space-between;
+  margin-bottom: 1.25em;
+  width: 440px;
+
+
+}
+
+
+
+/* class applied div wrapping total used to decorate */
+
+
+.top-border-total-cart-totals-e-commerce {
+  position: relative;
+
+}
+
+.top-border-total-cart-totals-e-commerce::before {
+  content: '';
+  position: absolute;
+  background: #9DA6B6;
+  background: #555D50;
+  top: -10%;
+  left: 0%;
+  width: 430px;
+  height: 3%;
+  opacity: 0.6;
+
+}
+
+/* class applied to each subtotal, shipping, totals for the margin*/
+
+
+.price-bottom-page-cart-totals-e-commerce{
+  margin-right: .5em;
+  /*margin-right: 0;*/
+}
+
+
+/* ======== Cart Component ========= */
+
+
+
+
+
+
+
+@media(min-width: 1000px) {
+
+  .section-cart-component-e-commerce {
+    position: relative;
+    padding: 0.5em;
+    background: #E4DACD;
+
+  }
+
+} 
+
+
+
+/* ======== Title Cart Component ========= */
+
+
+
+
+@media(min-width: 640px) {
+
+
+  /* Title my Bag */
+
+  .product-list-component-text-title-e-commerce{
+    font-size: 5rem; /* it was 2.5rem */
+    margin-bottom: .5em;
+
+    
+  }
+
+}
+
+@media(min-width: 1170px) {
+
+
+  /* Title my Bag */
+
+  .product-list-component-text-title-e-commerce{
+    font-size: 5rem; /* it was 2.5rem */
+    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+
+    
+  }
+
+}
+
+
+@media(min-width: 1170px) {
+
+
+  .general-wrapper-cart-e-commerce {
+    position: relative;
+    z-index: 6;
+  }
+
+ .general-wrapper-cart-e-commerce:before {
+    position: absolute;
+    width: 60%;
+    content: '';
+    height: 84%;
+    height: 79%;
+    background: transparent;
+    border-radius: 6px;
+    top: 22%;
+    left: 20%;
+    box-shadow: 0px 0px 5px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8;
+    z-index: 0;
+
+  }
+
+
+
+
+  /* div wrapping title my Bag */
+  .wrapper-title-my-bag-e-commerce {
+    width: 100%;
+    position: relative;
+    display: flex;
+
+  }
+
+ /*  .wrapper-title-my-bag-e-commerce:before {
+    content: '';
+    background: #E4DACD;
+    width: 100%;
+    height: 119%;
+    top: -5%;
+    left: -.5%;
+    opacity: 0.09;
+    position: absolute;
+    border-bottom: 1px solid #555D50;
+  } */
+
+  .product-list-component-text-title-e-commerce{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+}
+
+
+
+/* ======== Cart Item Component ========= */
+
+
+  @media(min-width: 640px) {
+
+  /* class applied to each item cart added to the cart, works as a container wrapping
+
+  img div product/price - div incre-decre - trash can */
+
+
+  .card-for-item-added-to-cart-e-commerce {
+    width: 540px;
+    padding: 0.74em 0.7.4em 0.59em 0.75em;
+    margin-bottom: 2em;
+
+  }
+
+  /* class applied to div wrapping the following two div: div product/total price and div incr and decr. */
+
+  .div-product-price-incr-decr-cart-item-e-commerce {
+    margin-left: 1.5em;
+    padding: .44em 1.19em .19em .19em;
+
+  }
+
+  /* class applied to div wrapping product - total item price */
+
+
+  .div-product-price-total-per-item-cart-item-e-commerce {
+    padding: 0.19em 0.44em 0.19em .84em;
+
+  }
+
+/* class applied to product name */
+
+
+  .product-cart-item-e-commerce {
+    font-size: 1.9rem;
+
+  }
+
+
+
+  /* class applied to total per item */
+
+
+  .total-per-item-cart-e-commerce {
+    margin-top: 1.29em;
+    font-size: 1.40rem;
+  }
+
+/* class applied to div wrapping div trash icon */
+
+
+  .div-trash-icon-cart-item-e-commerce {
+    margin-bottom: 0.24em;
+
+  }
+
+}
+
+
+
+
+@media(min-width: 1000px) {
+
+  .card-for-item-added-to-cart-e-commerce {
+    margin-bottom: 3em;
+  }
+
+}
+
+@media(min-width: 1170px) {
+
+
+  .card-for-item-added-to-cart-e-commerce {
+  }
+
+
+ .card-for-item-added-to-cart-e-commerce {
+    max-width: 415px;
+    padding: 0.55em 0.55em 0.4em 0.55em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    position: relative;
+  } 
+
+
+
+
+
+/* class applied div wrapping img  */
+
+
+ .div-img-cart-e-commerce {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: radial-gradient(90deg,#E2BEA8, #E4DACD);
+
+  } 
+
+  /* class applied to img inside item cart added to the cart */
+
+ .img-card-for-item-added-to-cart-e-commerce {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0;
+
+  } 
+
+  /* class applied to div wrapping the following two div: div product/total price and div incr and decr. */
+
+ .div-product-price-incr-decr-cart-item-e-commerce {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    padding: .25em 1em 0 0;
+
+  } 
+
+
+  /* class applied to div wrapping product - total item price */
+
+
+   .div-product-price-total-per-item-cart-item-e-commerce {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0 0.25em 0 0.65em;
+
+  } 
+
+  /* class applied to product name */
+
+ .product-cart-item-e-commerce {
+    font-size: 1.7rem;
+    letter-spacing: 1.6px;
+    color: #555D50;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: .75em;
+  } 
+
+
+
+  /* class applied to total per item */
+
+
+ .total-per-item-cart-e-commerce {
+    color: #555D50;
+    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: .25em;
+    letter-spacing: 1.6px;
+    font-size: 1.20rem;
+
+  }
+
+
+
+  /* class applied to div wrapping icons + & - as well as number */
+
+
+ .div-btn-decrement-increment-cart-item-e-commerce {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: .15em;
+    margin-bottom: 0em;
+    width: 7rem; 
+
+  } 
+
+
+  /* class applied to icons + & - */
+
+.btn-decrement-increment-cart-item {
+    background: #E4DACD;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #555D50;;
+    padding: .3em;
+    border: 1px solid #555D50;
+    width: .5rem;
+    text-align: center;
+    margin-bottom: .25em; 
+  
+  } 
+
+  .btn-decrement-increment-cart-item:hover {
+    cursor: pointer;
+  
+  } 
+
+
+  /* class applied to number per item added to cart */
+
+
+  .item-added-per-object-cart-item-e-commerce {
+    font-size: 1.25rem;
+    color: #000;;
+
+  }  
+
+
+  /* class applied to div wrapping div trash icon */
+
+ .div-trash-icon-cart-item-e-commerce {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 0em;
+    margin-bottom: .05em;
+    margin-right: .5em;
+  }
+
+}  
+
+
+
+@media(min-width: 1300px) {
+
+  /* class applied to each item cart added to the cart, works as a container wrapping
+
+  img div product/price - div incre-decre - trash can */
+
+
+
+  .card-for-item-added-to-cart-e-commerce {
+    margin-bottom: 2em;
+  }
+}
+
+    
+
+
+
+/* ======== CART Totals Component ========= */
+
+
+
+
+@media(min-width: 640px) {
+
+
+
+
+
+  /* class applied to div wrapping subtotal, shipping and total */
+
+  .div-button-sub-shipping-total-cart-totals-e-commerce {
+    /*max-width: 600px; */
+    max-width: 572px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: left;
+
+  }
+
+  .div-for-subtotal-shipping-and-total-e-commerce {
+  }
+
+  /* class applied to 3 divs wrapping subtotal, shipping, total */
+
+
+  .div-cart-totals-e-commerce {
+    letter-spacing: 1.6px;
+    font-size: 1.15rem;
+    color: #555D50;
+    display: flex;
+    padding: .4em 0;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    width: 572px;
+  }
+
+  .price-bottom-page-cart-totals-e-commerce{
+    margin-right: 0em;
+  }
+
+  .top-border-total-cart-totals-e-commerce::before {
+
+    width: 572px;
+
+
+}
+
+
+}
+
+@media(min-width: 1170px) {
+
+
+  .general-wrapper-cart-e-commerce{
+    position: relative;
+  }
+
+/* .general-wrapper-cart-e-commerce:before {
+    content: '';
+    background: #E4DACD;
+    width: 30%;
+    height: 70%;
+    top: 30%;
+    left: .5%;
+    opacity: .09;
+    position: absolute;
+    border-right: 1px solid #555D50;
+
+  } */
+
+
+
+/*  .general-wrapper-cart-e-commerce:after {
+    content: '';
+    background: #E4DACD;
+    width: 30%;
+    height: 70%;
+    top: 30%;
+    right: .5%;
+    opacity: .09;
+    position: absolute;
+    border-left: 1px solid #555D50;
+
+
+  } */
+
+
+
+  .wrapper-cart-item-e-commerce {
+
+
+
+  }
+
+
+  .wrapper-cart-totals-e-commerce {
+    display: flex;
+
+
+
+  }
+
+ /*  .genaral-wrapper-gallery-product-e-commerce {
+    display: unset;
+      background: #E2BEA8;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 550px;
+  position: absolute;
+  left: 50%;
+  top: 212px;
+  display: none;
+
+  }
+
+  .img-card-gallery-product-e-commerce {
+  width: 82%;
+  margin-left: auto;
+}  */
+
+
+
+
+  .div-for-subtotal-shipping-and-total-e-commerce {
+    margin-top: 2.25rem;
+    width: 430px;   
+    margin-left: auto;
+    margin-right: 
+   
+
+  } 
+
+ .div-cart-totals-e-commerce {
+    letter-spacing: 1.6px;
+    font-size: 1.15rem;
+    color: #555D50;
+    display: flex;
+    padding: .4em 0;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    width: 440px;
+  } 
+
+  .price-bottom-page-cart-totals-e-commerce{
+    margin-right: 0.5em;
+  }
+
+  .top-border-total-cart-totals-e-commerce::before {
+
+    width: 430px;
+
+}
+
+
+}
+
+
+@media(min-width: 1300px) {
+
+
+
+/*   .general-wrapper-cart-e-commerce:before {
+    content: '';
+    background: #E4DACD;
+    width: 32%;
+    height: 70%;
+    top: 30%;
+    left: 1%;
+    opacity: .09;
+    position: absolute;
+    border-right: 1px solid #555D50;
+
+  }
+
+
+
+  .general-wrapper-cart-e-commerce:after {
+    content: '';
+    background: #E4DACD;
+    width: 32%;
+    height: 70%;
+    top: 30%;
+    right: 1%;
+    opacity: .09;
+    position: absolute;
+    border-left: 1px solid #555D50;
+
+  } */ 
+
+
+
+}
+
+
+
+
+
+
+
+/* ======== Secure Checkout Button Component  ========= */
+
+
+@media(min-width: 640px) {
+
+  /* class applied to button end cart total used to enter form checkout page*/
+
+
+  .proceed-to-check-out-cart-totals-e-commerce {
+    margin-bottom: 4em;
+    width: 540px;
+   
+
+  }
+
+}
+
+@media(min-width: 1170px) {
+
+    /* class applied to button end cart total used to enter form checkout page*/
+
+
+  .proceed-to-check-out-cart-totals-e-commerce {
+    margin-bottom: 4em;
+    width: 415px;
+    z-index: 10;
+    position: relative;
+
+  }
+
+      /* class applied to button end cart total used to enter form checkout page*/
+
+
+.proceed-to-check-out-cart-totals-e-commerce {
+    margin-bottom: 4em;
+    width: 415px;
+ }
+
+
+}
+
+
+
+
+
+/* ======== Checkout page form ========= */
+
+
+@media(min-width: 750px) {
+
+      /* class applied to general wrapper in checkout page*/
+
+
+  .div-general-checkout-page-e-commerce {
+    background: #E2BEA8;
+    border: 1px solid transparent;
+    display: flex;
+    position: relative;
+
+}
+
+  .div-general-checkout-page-e-commerce:before {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 18rem;
+    opacity: 0.6;
+    background-size: contain;
+    clip-path: circle(119% at -50% -50%);
+    background: radial-gradient(ellipse at top, #E4DACD, transparent);
+    opacity: .8;
+
+  }
+
+  .billing-details-checkout-page-e-commerce{
+    font-size: 1.8rem;
+    margin-top: 2em;
+
+  }
+
+}
+
+
+@media(min-width: 1000px) {
+
+    /* class applied to general wrapper in checkout page*/
+
+
+  .div-general-checkout-page-e-commerce {
+    background: #E2BEA8;
+    border: 1px solid transparent;
+    display: flex;
+
+  }
+
+  .div-general-checkout-page-e-commerce:before {
+    display: none;
+  }
+
+  .billing-details-checkout-page-e-commerce{
+    font-size: 1.8rem;
+  }
+
+  /* class applied to div next to form */
+
+  .div-background-next-to-form-checkout-page-e-commerce {
+    display: unset;
+    width: 55%;
+    background-size: 300px;
+    background-position: right;
+    mix-blend-mode: multiply;
+    background-size: 120vh;
+    background-repeat: no-repeat;
+    margin: 0em .07em;
+    opacity: 0.4;
+
+  }
+
+
+  /* class applied to Form tag*/
+
+  .grid-form-checkout-page-e-commerce{
+    width: 50%;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    box-shadow: 0px 0px 10px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8;
+
+    padding: 1em 0 1.5em 0;
+  }
+
+  .billing-details-checkout-page-e-commerce{
+    font-size: 1.8rem;
+    margin-top: 1.5em;
+
+  }
+
+}
+
+
+
+
+
+/* ======== Verify Checkout Order Component ========= */
+
+@media(min-width: 540px) {
+  
+  .section-infos-verify-order-e-commerce{
+    position: relative;
+  }
+
+
+  .div-infos-names-address-verify-order-e-commerce {
+      margin-left: 1em;
+
+    
+  }
+
+  .div-section-two-h3-cart-list-cart-totals-pay-pal {
+     margin-left: 1em;
+  }
+}
+
+
+
+
+@media(min-width: 640px) {
+
+    .section-infos-verify-order-e-commerce::before {
+      position: absolute;
+      content: '';
+     /* background: #E4DACD;*/
+      background: linear-gradient(90deg,#2BEA8,#E4DACD);
+      opacity: .09;
+      width: 99%;
+      height: 76%;
+
+  }
+    .div-infos-names-address-verify-order-e-commerce {
+      margin-left: auto;
+      margin-right: auto;
+      width: 600px;
+
+
+  }
+
+   .div-section-two-h3-cart-list-cart-totals-pay-pal {
+      margin-left: auto;
+      margin-right: auto;
+      width: 600px;
+
+  }
+
+
+  .title-billing-address-verify-order-e-commerce:before {
+    width: 567px;
+
+
+  }
+
+  .my-bag-section-one-verify-order-e-commerce:before {
+    width: 567px;
+
+  }
+
+  .card-for-item-in-verify-to-cart-e-commerce {
+    width: 540px;
+
+  }
+
+      /* class applied to div wrapping tile, contenance price of product item added to cart  */
+
+
+  .card-name-contenance-numbers-of-products-total-price-e-commerce {
+    margin-top: .75em; 
+  }
+
+    /* class applied to Title product added to card Item added */
+
+
+  .title-card-for-item-in-verify-order-e-commerce {
+    margin-top: .50em;
+    font-size: 1.85rem;
+  }
+
+
+  /* class applied to Contenance (ML) of product added to card Item added */
+
+
+  .contenance-card-for-item-in-verify-order-e-commerce {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: .95em;
+  }
+
+
+  /* class applied to number of specific product added to card Item added */
+
+
+  .count-card-for-item-in-verify-order-e-commerce {
+    margin-top: 1.25em; 
+    text-align: center;
+    font-size: 1.3rem;
+
+
+  }
+
+
+   /* class applied to total price of specific product added to card Item added */
+
+
+  .total-price-per-item-card-for-item-in-verify-order-e-commerce {
+    margin-top: 1.5em; 
+    font-size: 1.4rem;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ======== Verify Order Cart Item Component ========= */
+
+
+@media(min-width: 700px) {
+
+  /* class applied to card wrapping img plus info  */
+
+
+  .card-for-item-in-verify-to-cart-e-commerce {
+      margin-bottom: 4em; /* it was 1.75 rem */
+
+  }
+
+  .title-billing-address-verify-order-e-commerce:before {
+    width: 562px;
+
+
+  }
+
+  .my-bag-section-one-verify-order-e-commerce:before {
+    width: 562px;
+
+  }
+
+}
+
+
+
+
+
+@media(min-width: 1170px) {
+
+  /* class applied to general wrapper for component */
+
+
+  .general-div-verify-order-e-commerce {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #E2BEA8;
+  
+  }
+
+
+  /* class applied to section wrapping Verify my order, adress */
+  .section-infos-verify-order-e-commerce {
+    margin-left: 0em;
+    margin-right: 0;
+    width: 400px;
+    align-items: left ;
+    padding: 0 0 0 3em;
+
+  }
+
+  /* class applied to section wrapping Card selected, div containing sub,shipping and subtotal and paypal button */
+
+
+  .section-my-order-verify-order-e-commerce {
+    width: 600px;
+    margin-left: 0;
+    margin-right: 0em;
+    margin-top: .5em;
+    padding: 0 0 0 1.5em;
+    display: grid;
+    justify-content: left;
+
+  }
+
+
+
+
+  .section-infos-verify-order-e-commerce:before {
+    content: '';
+    position: absolute;
+    width: 136%;
+    height: 103%;
+    opacity: 0.3;
+    left: -34%;
+    top: -2.2%;
+    background: #E4DACD;
+    box-shadow: 0px 0px 1px 0px #E4DACD, 0px 0px 1px 0px #E2BEA8; 
+
+
+  }
+
+
+
+
+  .div-section-two-h3-cart-list-cart-totals-pay-pal {
+    display: grid;
+    justify-content: left;
+    margin-left: 2.5em;
+    margin-right: 0;
+
+  }
+
+
+
+  /* class applied to div wrapping veryify my order, address and general infos  */
+
+  .div-infos-names-address-verify-order-e-commerce {
+    height: 70vh;
+    position: relative;
+    margin-left: .2em;
+    margin-right: .6em;
+    padding: 1em 0;
+    width: 100%;
+    position: fixed;
+    width: 400px; 
+    margin-left: 0em;
+
+
+  }
+
+
+  /* class applied to Verify my address  */
+
+  .h2-title-verify-order-e-commerce {
+    font-size: 2rem;
+    margin-bottom: 0;
+  
+  }
+
+  /* class applied to title address  */
+
+  .title-billing-address-verify-order-e-commerce {
+    margin-top: 1em;
+  
+  }
+
+
+  /* class applied to title address  */
+
+
+  .title-billing-address-verify-order-e-commerce:before {
+    position: absolute;
+    content: '';
+    background: #555D50;;
+    height: .01rem;
+    width: 350px;
+    top: 28%;
+    left: 0;
+  
+  }
+
+  
+  /* class applied to first, last namesm adress county email */
+
+  .first-last-names-verify-order-e-commerce,
+  .billing-address-verify-order-e-commerce,
+  .country-verify-order-e-commerce,
+  .billing-zip-city-verify-order-e-commerce,
+  .email-verify-order-e-commerce {
+    font-size: 1.3rem;
+
+  }
+
+  
+  /* class applied to title my bag in firt section small screen */
+
+
+  .my-bag-section-one-verify-order-e-commerce {
+    font-size: 1.5rem;
+    position: relative;
+    margin-bottom: 1.75em;
+    grid-column: span 3;
+    display: none;
+  }
+
+  /* class applied to title my bag in second section large screen */
+
+  .my-bag-section-two-verify-order-e-commerce {
+    font-size: 1.7rem;
+    position: relative;
+    margin-bottom: 1.75em; /*to change top */
+    display: unset;
+
+  }
+
+  .my-bag-section-two-verify-order-e-commerce::before {
+    position: absolute;
+    content: '';
+    background: #555D50;
+    height: .01rem;
+    width: 440px;
+    top: 122%;
+    left: 0%;
+  }
+
+
+  /* class applied to card wrapping img plus info  */
+
+
+  .card-name-contenance-numbers-of-products-total-price-e-commerce {
+    margin-top: 0.75em;/* it was .25 rem */
+    font-size: 1.5rem;
+  
+  }
+
+  .card-for-item-in-verify-to-cart-e-commerce {
+    width: 420px;
+
+  
+  }
+
+    /* class applied to div wrapping tile, contenance price of product item added to cart  */
+
+
+  .card-name-contenance-numbers-of-products-total-price-e-commerce {
+    margin-top: 0.75em;/* it was .25 rem */
+    font-size: 1.5rem;
+  
+  }
+
+  /* class applied to title of product added to card item added  */
+
+
+  .title-card-for-item-in-verify-order-e-commerce {
+    margin-top: .6em;
+    font-size: 1.5rem;
+  
+  }
+
+
+  /* class applied to Contenance (ML) of product added to card Item added */
+
+  .contenance-card-for-item-in-verify-order-e-commerce {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: .75em;
+  
+  }
+
+  /* class applied to number of specific product added to card Item added */
+
+
+  .count-card-for-item-in-verify-order-e-commerce {
+    margin-top: 0em;
+    text-align: center;
+    font-size: 1.1rem;
+  
+  }
+
+
+  /* class applied to total price of specific product added to card Item added */
+
+
+  .total-price-per-item-card-for-item-in-verify-order-e-commerce {
+    margin-top: .8em;
+    font-size: 1.1rem;
+  }
+
+
+
+}
+
+
+
+
